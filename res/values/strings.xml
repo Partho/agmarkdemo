@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hello">Hello World, PocketSphinxAndroidDemo!</string>
+    <string name="app_name">Agmark Demo</string>
+	<color name="white">#FFF</color>
+
+	<string name="performance_text">0.00 seconds 0.00 xRT</string>
+	<string name="Recognition_results"> Recognition results  </string>
+	
+	<string name="Enter_Commodity">Enter Commodity Name : </string>
+	<string name="Enter_Variety">Enter Variety Name : </string>
+	<string name="Enter_Market">Enter Market Name : </string>
+	<string name="Enter_Date">Enter Date : </string>
+	
+	<string name="Speak_Commodity"> Tap </string>
+	<string name="Speak_Variety"> Tap </string>
+	<string name="Speak_Market"> Tap </string>
+	
+	<string name="Commodity_goes_here">   </string>
+	<string name="Variety_goes_here">   </string>
+	<string name="Market_goes_here">   </string>
+	<string name="Date_goes_here">   </string>
+	<string name="Submit">Submit</string>
+	
+</resources>

@@ -1,0 +1,1459 @@
+language model created by quicklm on tue apr 21 14:47:02 edt 2015
+copyright (c) 1996-2010 carnegie mellon university and alexander i. rudnicky
+
+the model is in standard arpa format, designed by doug paul while he was at mitre.
+
+the code that was used to produce this language model is available in open source.
+please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+the (fixed) discount mass is 0.5. the backoffs are computed using the ratio method.
+this model based on a corpus of 149243 sentences and 259 words
+
+\data\
+ngram 1=259
+ngram 2=621
+ngram 3=561
+
+\1-grams:
+-0.8425 </s> -0.3010
+-0.8425 <s> -0.2111
+-2.4582 aaloo -0.2337
+-2.1674 aam -0.2337
+-2.9739 adrak -0.2337
+-3.1074 agra -0.2337
+-3.1431 aligarh -0.2337
+-3.0855 allahabad -0.2337
+-3.1408 ambedkar -0.2983
+-4.1356 ambedkar_nagar -0.2337
+-3.4811 american -0.2335
+-3.3509 amrood -0.2334
+-3.4749 anannas -0.2337
+-6.0164 anapoorna -0.2337
+-3.4724 anar -0.2335
+-3.4914 angoor -0.2337
+-3.4553 annapoorna -0.2337
+-2.8797 arhar -0.2306
+-3.1069 auraiya -0.2333
+-3.0958 azamgarh -0.2332
+-3.0598 bada -0.2329
+-3.2857 badami -0.2981
+-3.0875 badaun -0.2337
+-3.0744 badshah -0.2319
+-3.0759 baghpat -0.2337
+-3.0880 bahraich -0.2337
+-3.2988 baingan -0.2337
+-2.8560 bajra -0.2337
+-3.0886 ballia -0.2332
+-3.0896 balrampur -0.2337
+-3.4265 banaras -0.2337
+-3.2800 band -0.3004
+-3.1249 banda -0.2337
+-4.7377 bangan -0.2337
+-3.0870 bansi -0.2318
+-3.0891 barabanki -0.2332
+-3.0744 bareilly -0.2337
+-5.3175 basmathi -0.2969
+-2.6476 basmati -0.2286
+-3.0901 basti -0.2337
+-3.0319 basumathi -0.2288
+-3.3443 basumati -0.2969
+-2.6930 beej -0.2332
+-5.7154 bgnoise> -0.3004
+-3.4850 bhindi -0.2335
+-3.4601 bijapur -0.2337
+-3.0850 bijnor -0.2332
+-3.4811 bold -0.2335
+-3.0927 buddha -0.2983
+-3.1112 bulandshahr -0.2337
+-2.6439 chana -0.2327
+-3.0906 chandauli -0.2337
+-2.9727 chane -0.2331
+-3.4687 charmi -0.2337
+-3.2848 chausa -0.2981
+-2.2975 chawal -0.2329
+-3.4786 chikoo -0.2335
+-3.4711 chini -0.2337
+-3.2897 chips -0.2995
+-3.1210 chitrakoot -0.2337
+-3.2777 chiwra -0.2988
+-3.2698 chola -0.3000
+-3.0574 chota -0.2324
+-2.5589 daal -0.2337
+-2.7275 dal -0.2335
+-3.4940 dappa -0.2335
+-3.3789 dara -0.2994
+-3.4901 darjeeling -0.2337
+-3.1069 dehat -0.2337
+-3.0824 deoria -0.2337
+-2.2703 deshi -0.2228
+-3.2832 desi -0.2995
+-2.3512 dhan -0.2314
+-3.0666 dhaniya -0.2319
+-3.2800 dusheri -0.2981
+-3.1194 etah -0.2333
+-3.1026 etawah -0.2337
+-3.0784 faizabad -0.2337
+-3.1243 farrukhabad -0.2337
+-3.0989 fatehpur -0.2337
+-3.2922 fazli -0.2981
+-3.1646 fine -0.2333
+-3.0989 firozabad -0.2337
+-6.0164 gatiya -0.2994
+-3.0927 gautam -0.3007
+-3.2745 gazar -0.2334
+-4.8403 gehu -0.2337
+-2.4368 gehun -0.2311
+-3.3671 ghatiya -0.2994
+-3.0906 ghaziabad -0.2337
+-3.0911 ghazipur -0.2337
+-2.8575 gobhi -0.2335
+-3.4837 golden -0.2335
+-3.0870 gonda -0.2337
+-3.0942 gorakhpur -0.2337
+-3.5113 guntur -0.2335
+-2.6618 gur -0.2325
+-3.0860 haldi -0.2330
+-3.1299 hamirpur -0.2337
+-3.4699 hansa -0.2335
+-3.3029 hapus -0.2981
+-2.7650 hara -0.2324
+-3.0880 hardoi -0.2337
+-2.9715 hari -0.2995
+-2.7246 hybrid -0.2313
+-3.4761 indian -0.2337
+-3.4824 jalander -0.2337
+-3.2441 jalaun -0.2337
+-3.8893 jalauni -0.2337
+-3.4966 jambu -0.2337
+-3.2889 jau -0.2337
+-3.0989 jaunpur -0.2337
+-5.7154 jawar -0.2337
+-3.4774 jeera -0.2995
+-3.1368 jhansi -0.2337
+-2.8488 jowar -0.2329
+-3.2857 jut -0.2337
+-3.1047 jyotiba -0.3007
+-3.2682 ka -0.3001
+-3.2889 kaali -0.3008
+-3.1021 kabir -0.2983
+-3.4674 kabuli -0.3000
+-2.9920 kaccha -0.2998
+-3.4601 kachha -0.3001
+-3.2922 kaddu -0.2337
+-3.4914 kaju -0.2337
+-3.2690 kakdi -0.2337
+-2.9637 kala -0.2318
+-2.9727 kale -0.3006
+-3.0700 kalyan -0.2332
+-3.1449 kannauj -0.2337
+-2.7992 kanpur -0.2980
+-3.2857 kapas -0.2337
+-3.4774 karbuja -0.2337
+-3.4875 karela -0.2337
+-2.8167 kathal -0.2337
+-3.1166 kaushambi -0.2337
+-2.8599 kela -0.2337
+-3.2769 keshar -0.2981
+-2.9994 khada -0.3001
+-3.4786 khand -0.2337
+-3.1032 kheri -0.2337
+-2.9731 ki -0.2998
+-3.1745 kushinagar -0.2337
+-2.6454 laal -0.2310
+-6.0164 laan -0.2337
+-3.3013 lahi -0.2337
+-3.1032 lakhimpur -0.3007
+-3.1305 lalitpur -0.2337
+-3.2865 langra -0.2981
+-3.2682 lauki -0.2337
+-3.0666 lehsun -0.2337
+-3.2865 lohi -0.2337
+-3.4650 lokwan -0.2337
+-3.0865 lucknow -0.2337
+-3.4565 madhayam -0.2328
+-3.4966 madhyam -0.2337
+-3.1166 mahamaya -0.2983
+-2.8691 mahin -0.2281
+-3.1368 mahoba -0.2337
+-3.1210 mahrajganj -0.2337
+-3.1199 mainpuri -0.2337
+-2.8500 makka -0.2329
+-3.4850 masale -0.2337
+-3.2769 masur -0.2313
+-2.3352 masuri -0.2264
+-3.1249 mathura -0.2337
+-3.2644 mator -0.2337
+-3.0779 mau -0.2337
+-3.0974 meerut -0.2337
+-3.4786 methi -0.3001
+-3.3063 milbar -0.2318
+-2.8533 mirch -0.2337
+-3.1000 mirzapur -0.2337
+-2.7213 mota -0.2259
+-3.4901 mousambi -0.2337
+-3.2930 mousami -0.2337
+-3.4953 muli -0.2337
+-3.0612 mung -0.2990
+-2.9719 mungfali -0.2334
+-3.0927 muradabad -0.2337
+-3.1713 muzaffarnagar -0.2337
+-2.2022 nagar -0.2337
+-3.4901 nagpuri -0.2337
+-3.2621 narangi -0.2337
+-3.4850 nasik -0.2337
+-3.0593 naya -0.2319
+-3.2690 neelam -0.2981
+-3.4927 nizamabad -0.2335
+-6.0164 paddpy -0.3009
+-3.4992 paddy -0.3009
+-3.2652 pahadi -0.2995
+-2.9750 pakka -0.2998
+-6.0164 panddy -0.3009
+-6.0164 pandy -0.3009
+-3.4761 papita -0.2337
+-3.0598 pathari -0.2321
+-3.2698 patta -0.3004
+-3.4862 phool -0.3004
+-3.1047 phule -0.2983
+-2.7850 pila -0.2310
+-3.0710 pilibhit -0.2332
+-3.4687 ponni -0.2335
+-3.3089 powder -0.2337
+-3.1063 pratapgarh -0.2337
+-3.4850 puna -0.2335
+-3.2761 purana -0.2995
+-2.8016 pyaaz -0.2337
+-3.4824 pyaz -0.2337
+-3.0814 raebareli -0.2337
+-3.2988 rai -0.2337
+-3.0845 rampur -0.2337
+-3.2698 raspuri -0.2981
+-3.0963 ravidas -0.2983
+-3.4850 robusta -0.2337
+-3.2905 saabut -0.3006
+-2.8506 safed -0.2318
+-3.2808 safeda -0.2981
+-3.1884 saharanpur -0.2333
+-2.8648 samba -0.2990
+-2.8578 sambar -0.2264
+-2.7982 sant -0.3003
+-3.4888 santara -0.2335
+-3.4749 sapota -0.2337
+-3.2996 sarso -0.2337
+-3.4699 seb -0.2337
+-3.0814 shahjahanpur -0.2337
+-3.4650 shakkar -0.2337
+-3.4471 sharbati -0.2335
+-6.0164 shimla -0.3004
+-3.1069 shrawasti -0.2337
+-3.0974 siddharth -0.2983
+-3.4786 simla -0.2337
+-3.0809 sitapur -0.2337
+-3.4553 sona -0.2335
+-3.0870 sonbhadra -0.2337
+-2.8077 soyabean -0.2337
+-3.5019 sthaniya -0.2335
+-3.4875 sukhi -0.3004
+-3.0911 sultanpur -0.2337
+-3.4699 super -0.3006
+-3.4613 superior -0.2337
+-3.4674 superponni -0.2337
+-3.3080 surajmukhi -0.3001
+-3.2897 surkha -0.2981
+-3.4799 suvarna -0.3009
+-2.7372 tamator -0.2337
+-3.4774 tarbooj -0.2337
+-3.3072 til -0.2337
+-3.2816 totapuri -0.2981
+-3.4850 tur -0.3002
+-3.0779 unnao -0.2337
+-3.0002 urad -0.2323
+-3.4799 uttam -0.2335
+-6.0164 vaddy -0.3009
+-3.1166 varanasi -0.2337
+-2.8629 vijaya -0.2988
+-3.3080 vilayati -0.3002
+
+\2-grams:
+-2.9434 <s> aaloo 0.0000
+-2.7175 <s> aam 0.0000
+-2.5659 <s> agra 0.0000
+-2.6016 <s> aligarh 0.0000
+-2.5440 <s> allahabad 0.0000
+-2.5993 <s> ambedkar 0.0000
+-3.5941 <s> ambedkar_nagar 0.0000
+-2.9409 <s> american 0.0000
+-2.8112 <s> amrood 0.0000
+-2.9333 <s> anannas 0.0000
+-5.4749 <s> anapoorna 0.0000
+-2.9321 <s> anar 0.0000
+-2.9499 <s> angoor 0.0000
+-2.9138 <s> annapoorna 0.0000
+-2.5359 <s> arhar 0.0000
+-2.5659 <s> auraiya 0.0000
+-2.5548 <s> azamgarh 0.0000
+-2.5183 <s> bada 0.0000
+-2.7441 <s> badami 0.0000
+-2.5460 <s> badaun 0.0000
+-2.5329 <s> badshah 0.0000
+-2.5344 <s> baghpat 0.0000
+-2.5465 <s> bahraich 0.0000
+-2.7573 <s> baingan 0.0000
+-2.9235 <s> bajra 0.0000
+-2.5476 <s> ballia 0.0000
+-2.5481 <s> balrampur 0.0000
+-2.8850 <s> banaras 0.0000
+-2.7385 <s> band 0.0000
+-2.5834 <s> banda 0.0000
+-4.1962 <s> bangan 0.0000
+-2.5460 <s> bansi 0.0000
+-2.5481 <s> barabanki 0.0000
+-2.5329 <s> bareilly 0.0000
+-4.7760 <s> basmathi 0.0000
+-2.1787 <s> basmati 0.0000
+-2.5486 <s> basti 0.0000
+-2.4908 <s> basumathi 0.0000
+-2.8028 <s> basumati 0.0000
+-5.1739 <s> bgnoise> 0.0000
+-2.9447 <s> bhindi 0.0000
+-2.9186 <s> bijapur 0.0000
+-2.5460 <s> bijnor 0.0000
+-2.9409 <s> bold 0.0000
+-2.5697 <s> bulandshahr 0.0000
+-2.9346 <s> chana 0.0000
+-2.5491 <s> chandauli 0.0000
+-5.4749 <s> charmi 0.0000
+-2.7433 <s> chausa 0.0000
+-2.9056 <s> chawal -0.0002
+-2.9384 <s> chikoo 0.0000
+-2.9296 <s> chini 0.0000
+-2.7482 <s> chips 0.0000
+-2.5801 <s> chitrakoot 0.0000
+-2.7361 <s> chiwra 0.0000
+-2.7283 <s> chola 0.0000
+-2.5164 <s> chota 0.0000
+-2.8374 <s> dara 0.0000
+-2.9486 <s> darjeeling 0.0000
+-2.5409 <s> deoria 0.0000
+-1.7291 <s> deshi 0.0000
+-2.7417 <s> desi 0.0000
+-2.9284 <s> dhan 0.0000
+-2.9309 <s> dhaniya 0.0000
+-2.7385 <s> dusheri 0.0000
+-2.5812 <s> etah 0.0000
+-2.5611 <s> etawah 0.0000
+-2.5369 <s> faizabad 0.0000
+-2.5828 <s> farrukhabad 0.0000
+-2.5574 <s> fatehpur 0.0000
+-2.7506 <s> fazli 0.0000
+-2.9210 <s> fine 0.0000
+-2.5574 <s> firozabad 0.0000
+-5.4749 <s> gatiya 0.0000
+-2.5512 <s> gautam 0.0000
+-2.7338 <s> gazar 0.0000
+-2.5270 <s> gehun -0.0001
+-2.8256 <s> ghatiya 0.0000
+-2.5491 <s> ghaziabad 0.0000
+-2.5496 <s> ghazipur 0.0000
+-2.9447 <s> golden 0.0000
+-2.5455 <s> gonda 0.0000
+-2.5527 <s> gorakhpur 0.0000
+-2.9711 <s> guntur 0.0000
+-2.9358 <s> gur 0.0000
+-2.5450 <s> haldi 0.0000
+-2.5884 <s> hamirpur 0.0000
+-2.9309 <s> hansa 0.0000
+-2.7614 <s> hapus 0.0000
+-2.3172 <s> hara 0.0000
+-2.5465 <s> hardoi 0.0000
+-2.4304 <s> hari 0.0000
+-2.1831 <s> hybrid 0.0000
+-2.9346 <s> indian 0.0000
+-2.9409 <s> jalander 0.0000
+-2.7026 <s> jalaun 0.0000
+-3.3478 <s> jalauni 0.0000
+-2.9551 <s> jambu 0.0000
+-2.7474 <s> jau 0.0000
+-2.5574 <s> jaunpur 0.0000
+-5.1739 <s> jawar 0.0000
+-2.9358 <s> jeera 0.0000
+-2.5953 <s> jhansi 0.0000
+-2.9259 <s> jowar 0.0000
+-2.7441 <s> jut 0.0000
+-2.5632 <s> jyotiba 0.0000
+-2.7474 <s> kaali 0.0000
+-2.9259 <s> kabuli 0.0000
+-2.4504 <s> kaccha 0.0000
+-2.9186 <s> kachha 0.0000
+-2.7506 <s> kaddu 0.0000
+-2.9499 <s> kaju 0.0000
+-2.7275 <s> kakdi 0.0000
+-2.4222 <s> kala 0.0000
+-2.7298 <s> kale 0.0000
+-2.9198 <s> kalyan 0.0000
+-2.6034 <s> kannauj 0.0000
+-2.2577 <s> kanpur 0.0000
+-2.7441 <s> kapas 0.0000
+-2.9358 <s> karbuja 0.0000
+-2.9460 <s> karela 0.0000
+-2.7648 <s> kathal 0.0000
+-2.5751 <s> kaushambi 0.0000
+-2.9346 <s> kela 0.0000
+-2.7354 <s> keshar 0.0000
+-2.4579 <s> khada 0.0000
+-2.9371 <s> khand 0.0000
+-2.6329 <s> kushinagar 0.0000
+-2.3145 <s> laal -0.0918
+-5.4749 <s> laan 0.0000
+-2.7598 <s> lahi 0.0000
+-2.5616 <s> lakhimpur 0.0000
+-2.5890 <s> lalitpur 0.0000
+-2.7449 <s> langra 0.0000
+-2.7267 <s> lauki 0.0000
+-2.9409 <s> lehsun 0.0000
+-4.9978 <s> lohi 0.0000
+-2.9235 <s> lokwan 0.0000
+-2.5450 <s> lucknow 0.0000
+-2.9150 <s> madhayam 0.0000
+-2.9551 <s> madhyam 0.0000
+-2.5751 <s> mahamaya 0.0000
+-2.3279 <s> mahin 0.0000
+-2.5953 <s> mahoba 0.0000
+-2.5795 <s> mahrajganj 0.0000
+-2.5784 <s> mainpuri 0.0000
+-2.9296 <s> makka 0.0000
+-2.9434 <s> masale 0.0000
+-2.7361 <s> masur -0.0008
+-2.1838 <s> masuri 0.0000
+-2.5834 <s> mathura 0.0000
+-2.7229 <s> mator 0.0000
+-2.5364 <s> mau 0.0000
+-2.5558 <s> meerut 0.0000
+-2.9371 <s> methi 0.0000
+-2.7674 <s> milbar -0.0017
+-5.1739 <s> mirch 0.0000
+-2.5585 <s> mirzapur 0.0000
+-2.1800 <s> mota 0.0000
+-2.9486 <s> mousambi 0.0000
+-2.7515 <s> mousami 0.0000
+-2.9538 <s> muli 0.0000
+-2.9371 <s> mung -0.2088
+-2.4304 <s> mungfali 0.0000
+-2.5512 <s> muradabad 0.0000
+-2.6298 <s> muzaffarnagar 0.0000
+-2.9486 <s> nagpuri 0.0000
+-2.7206 <s> narangi 0.0000
+-2.9434 <s> nasik 0.0000
+-2.5178 <s> naya 0.0000
+-2.7275 <s> neelam 0.0000
+-2.9525 <s> nizamabad 0.0000
+-5.4749 <s> paddpy 0.0000
+-2.9604 <s> paddy 0.0000
+-2.7236 <s> pahadi 0.0000
+-2.4335 <s> pakka 0.0000
+-5.4749 <s> panddy 0.0000
+-5.4749 <s> pandy 0.0000
+-2.9346 <s> papita 0.0000
+-2.5197 <s> pathari 0.0000
+-2.7283 <s> patta 0.0000
+-2.9460 <s> phool 0.0000
+-2.2435 <s> pila 0.0000
+-2.5299 <s> pilibhit 0.0000
+-2.9309 <s> ponni 0.0000
+-2.5648 <s> pratapgarh 0.0000
+-2.9460 <s> puna 0.0000
+-2.7346 <s> purana 0.0000
+-2.9409 <s> pyaz 0.0000
+-2.5399 <s> raebareli 0.0000
+-2.7573 <s> rai 0.0000
+-2.5430 <s> rampur 0.0000
+-2.7283 <s> raspuri 0.0000
+-2.9434 <s> robusta 0.0000
+-2.7490 <s> saabut 0.0000
+-2.3091 <s> safed 0.0000
+-2.7393 <s> safeda 0.0000
+-2.6482 <s> saharanpur 0.0000
+-2.3232 <s> samba 0.0000
+-2.3163 <s> sambar 0.0000
+-2.2567 <s> sant 0.0000
+-2.9486 <s> santara 0.0000
+-2.9333 <s> sapota 0.0000
+-2.7581 <s> sarso 0.0000
+-2.9284 <s> seb 0.0000
+-2.5399 <s> shahjahanpur 0.0000
+-2.9235 <s> shakkar 0.0000
+-2.9067 <s> sharbati 0.0000
+-5.4749 <s> shimla 0.0000
+-2.5654 <s> shrawasti 0.0000
+-2.5558 <s> siddharth 0.0000
+-2.9371 <s> simla 0.0000
+-2.5394 <s> sitapur 0.0000
+-2.9150 <s> sona 0.0000
+-2.5455 <s> sonbhadra 0.0000
+-2.9271 <s> soyabean 0.0000
+-2.9617 <s> sthaniya 0.0000
+-2.9460 <s> sukhi 0.0000
+-2.5496 <s> sultanpur 0.0000
+-2.9284 <s> super 0.0000
+-2.9198 <s> superior 0.0000
+-2.9259 <s> superponni 0.0000
+-2.7665 <s> surajmukhi 0.0000
+-2.7482 <s> surkha 0.0000
+-2.9396 <s> suvarna 0.0000
+-2.9422 <s> tamator 0.0000
+-2.9358 <s> tarbooj 0.0000
+-2.7657 <s> til 0.0000
+-2.7401 <s> totapuri 0.0000
+-2.9473 <s> tur 0.0000
+-2.5364 <s> unnao 0.0000
+-2.7708 <s> urad -0.1797
+-5.4749 <s> vaddy 0.0000
+-2.5751 <s> varanasi 0.0000
+-2.3214 <s> vijaya 0.0000
+-2.7665 <s> vilayati 0.0000
+-0.3010 aaloo </s> -0.3010
+-0.3010 aam </s> -0.3010
+-0.3010 adrak </s> -0.3010
+-0.3010 agra </s> -0.3010
+-0.3010 aligarh </s> -0.3010
+-0.3010 allahabad </s> -0.3010
+-0.3010 ambedkar nagar 0.0000
+-0.3010 ambedkar_nagar </s> -0.3010
+-0.3023 american </s> -0.3010
+-2.8363 american american -0.0013
+-0.3029 amrood </s> -0.3010
+-2.6656 amrood amrood -0.0019
+-0.3010 anannas </s> -0.3010
+-0.3010 anapoorna </s> -0.3010
+-0.3023 anar </s> -0.3010
+-2.8451 anar anar -0.0012
+-0.3010 angoor </s> -0.3010
+-0.3010 annapoorna </s> -0.3010
+-0.5130 arhar </s> -0.3010
+-3.4378 arhar arhar -0.1418
+-1.0836 arhar daal 0.0000
+-0.9577 arhar dal -0.0007
+-0.3016 auraiya </s> -0.3010
+-3.2106 auraiya auraiya -0.0005
+-0.3016 azamgarh </s> -0.3010
+-3.2217 azamgarh azamgarh -0.0005
+-0.7149 bada </s> -0.3010
+-0.5126 bada pyaaz 0.0000
+-0.3010 badami aam 0.0000
+-0.3010 badaun </s> -0.3010
+-0.7232 badshah </s> -0.3010
+-0.5074 badshah aaloo 0.0000
+-0.3010 baghpat </s> -0.3010
+-0.3010 bahraich </s> -0.3010
+-0.3010 baingan </s> -0.3010
+-0.3010 bajra </s> -0.3010
+-0.3015 ballia </s> -0.3010
+-3.2289 ballia ballia -0.0005
+-0.3010 balrampur </s> -0.3010
+-0.3010 banaras </s> -0.3010
+-0.3010 band gobhi -0.0003
+-0.3010 banda </s> -0.3010
+-0.3010 bangan </s> -0.3010
+-0.6790 bansi </s> -0.3010
+-2.7533 bansi gehu 0.0000
+-0.5394 bansi gehun -0.0568
+-0.3015 barabanki </s> -0.3010
+-3.2284 barabanki barabanki -0.0005
+-0.3010 bareilly </s> -0.3010
+-0.3979 basmathi chawal -0.0002
+-1.0000 basmathi dhan -0.0002
+-0.7104 basmati </s> -0.3010
+-1.1233 basmati charmi 0.0000
+-0.9256 basmati chawal -0.0002
+-0.9539 basmati dhan -0.0002
+-0.3010 basti </s> -0.3010
+-0.7221 basumathi </s> -0.3010
+-0.8084 basumathi chawal -0.0002
+-0.8099 basumathi dhan -0.0002
+-0.6039 basumati chawal -0.0002
+-0.6002 basumati dhan -0.0002
+-0.3012 beej </s> -0.3010
+-3.6245 beej dhaniya -0.2070
+-0.6021 bgnoise> chitrakoot 0.0000
+-0.6021 bgnoise> etah -0.0027
+-0.3023 bhindi </s> -0.3010
+-2.8325 bhindi bhindi -0.0013
+-0.3010 bijapur </s> -0.3010
+-0.3036 bijnor </s> -0.3010
+-2.5335 bijnor bijnor -0.0025
+-0.3023 bold </s> -0.3010
+-2.8363 bold bold -0.0013
+-0.3010 buddha nagar 0.0000
+-0.3010 bulandshahr </s> -0.3010
+-0.3699 chana </s> -0.3010
+-1.1345 chana dal -0.0007
+-0.3010 chandauli </s> -0.3010
+-3.3448 chane </s> -0.3010
+-0.3014 chane ki 0.0000
+-0.3010 charmi </s> -0.3010
+-0.3010 chausa aam 0.0000
+-0.3013 chawal </s> -0.3010
+-4.0199 chawal basumathi -0.2277
+-3.7189 chawal milbar -0.3002
+-0.3023 chikoo </s> -0.3010
+-2.8388 chikoo chikoo -0.0013
+-0.3010 chini </s> -0.3010
+-0.3010 chips aaloo 0.0000
+-0.3010 chitrakoot </s> -0.3010
+-0.3010 chiwra chawal -0.0002
+-0.3010 chola chana -0.0595
+-0.7148 chota </s> -0.3010
+-3.2601 chota chota -0.2080
+-0.5134 chota pyaaz 0.0000
+-0.3010 daal </s> -0.3010
+-0.3017 dal </s> -0.3010
+-3.1128 dal tur 0.0000
+-0.3036 dappa </s> -0.3010
+-2.5224 dappa paddy 0.0000
+-2.6375 dara gehu 0.0000
+-0.3030 dara gehun -0.0568
+-0.3010 darjeeling </s> -0.3010
+-0.3010 dehat </s> -0.3010
+-0.3010 deoria </s> -0.3010
+-1.4873 deshi </s> -0.3010
+-1.3045 deshi bajra 0.0000
+-1.3029 deshi chana -0.0595
+-3.4451 deshi deshi -0.2867
+-3.2690 deshi gehu 0.0000
+-1.3379 deshi gehun -0.0568
+-1.3068 deshi kale 0.0000
+-1.0915 deshi laal -0.1651
+-1.3076 deshi lehsun 0.0000
+-1.3013 deshi mung -0.1407
+-1.3491 deshi soyabean 0.0000
+-1.3287 deshi tamator 0.0000
+-0.3010 desi aaloo 0.0000
+-0.3012 dhan </s> -0.3010
+-3.6652 dhan dhan -0.0002
+-0.5177 dhaniya </s> -0.3010
+-0.7106 dhaniya beej 0.0000
+-2.7738 dhaniya mirch 0.0000
+-0.3010 dusheri aam 0.0000
+-0.3038 etah </s> -0.3010
+-2.4991 etah etah -0.0027
+-0.3010 etawah </s> -0.3010
+-0.3010 faizabad </s> -0.3010
+-0.3010 farrukhabad </s> -0.3010
+-0.3010 fatehpur </s> -0.3010
+-0.3010 fazli aam 0.0000
+-0.3023 fine </s> -0.3010
+-2.8519 fine fine -0.0012
+-0.3010 firozabad </s> -0.3010
+-0.3010 gatiya gehun -0.0568
+-0.3010 gautam buddha 0.0000
+-0.3018 gazar </s> -0.3010
+-3.0430 gazar gazar -0.0008
+-0.3010 gehu </s> -0.3010
+-0.3664 gehun </s> -0.3010
+-2.9776 gehun gehun -0.0560
+-1.1630 gehun kalyan -0.0015
+-3.8807 gehun milbar -0.0034
+-0.3010 ghatiya gehun -0.0568
+-0.3010 ghaziabad </s> -0.3010
+-0.3010 ghazipur </s> -0.3010
+-0.3013 gobhi </s> -0.3010
+-3.4600 gobhi phool 0.0000
+-0.3036 golden </s> -0.3010
+-2.5328 golden golden -0.0025
+-0.3010 gonda </s> -0.3010
+-0.3010 gorakhpur </s> -0.3010
+-0.3024 guntur </s> -0.3010
+-2.8062 guntur guntur -0.0014
+-0.3012 gur </s> -0.3010
+-3.6557 gur gur -0.0002
+-0.6987 haldi </s> -0.3010
+-3.2315 haldi haldi -0.2041
+-0.5239 haldi powder 0.0000
+-0.3010 hamirpur </s> -0.3010
+-0.3035 hansa </s> -0.3010
+-2.5465 hansa hansa -0.0025
+-0.3010 hapus aam 0.0000
+-0.7199 hara </s> -0.3010
+-0.8097 hara adrak 0.0000
+-0.8113 hara mirch 0.0000
+-0.3010 hardoi </s> -0.3010
+-0.6056 hari adrak 0.0000
+-3.3460 hari hari -0.1773
+-0.5993 hari mirch 0.0000
+-1.0550 hybrid </s> -0.3010
+-0.8621 hybrid bajra 0.0000
+-0.8541 hybrid jowar -0.0009
+-0.8710 hybrid tamator 0.0000
+-0.3010 indian </s> -0.3010
+-0.3010 jalander </s> -0.3010
+-0.3010 jalaun </s> -0.3010
+-0.3010 jalauni </s> -0.3010
+-0.3010 jambu </s> -0.3010
+-0.3010 jau </s> -0.3010
+-0.3010 jaunpur </s> -0.3010
+-0.3010 jawar </s> -0.3010
+-0.3048 jeera beej -0.0002
+-2.3630 jeera mirch 0.0000
+-0.3010 jhansi </s> -0.3010
+-0.3019 jowar </s> -0.3010
+-2.9915 jowar jowar -0.0009
+-0.3010 jut </s> -0.3010
+-0.3010 jyotiba phule 0.0000
+-0.3010 ka beej -0.0002
+-0.3010 kaali lohi 0.0000
+-0.3010 kabir nagar 0.0000
+-0.3010 kabuli chana -0.0595
+-0.6129 kaccha kathal 0.0000
+-0.5915 kaccha kela 0.0000
+-0.3010 kachha basmati -0.2069
+-0.3010 kaddu </s> -0.3010
+-0.3010 kaju </s> -0.3010
+-0.3010 kakdi </s> -0.3010
+-0.8072 kala </s> -0.3010
+-0.6197 kala gur -0.0002
+-0.9827 kala soyabean 0.0000
+-0.3010 kale chane 0.0000
+-0.3025 kalyan </s> -0.3010
+-2.7704 kalyan kalyan -0.0015
+-0.3010 kannauj </s> -0.3010
+-0.6087 kanpur dehat 0.0000
+-0.5955 kanpur nagar 0.0000
+-0.3010 kapas </s> -0.3010
+-0.3010 karbuja </s> -0.3010
+-0.3010 karela </s> -0.3010
+-0.3010 kathal </s> -0.3010
+-0.3010 kaushambi </s> -0.3010
+-0.3010 kela </s> -0.3010
+-0.3010 keshar aam 0.0000
+-0.6191 khada arhar -0.1418
+-0.5857 khada dhaniya -0.1439
+-0.3010 khand </s> -0.3010
+-0.3010 kheri </s> -0.3010
+-0.3010 ki daal 0.0000
+-0.3010 kushinagar </s> -0.3010
+-0.8208 laal </s> -0.3010
+-0.9231 laal gur -0.0002
+-0.9294 laal makka -0.0003
+-0.9511 laal pyaaz 0.0000
+-0.3010 laan </s> -0.3010
+-0.3010 lahi </s> -0.3010
+-0.3010 lakhimpur kheri 0.0000
+-0.3010 lalitpur </s> -0.3010
+-0.3010 langra aam 0.0000
+-0.3010 lauki </s> -0.3010
+-0.3010 lehsun </s> -0.3010
+-0.3010 lohi </s> -0.3010
+-0.3010 lokwan </s> -0.3010
+-0.3010 lucknow </s> -0.3010
+-1.6305 madhayam </s> -0.3010
+-0.3219 madhayam hara -0.2092
+-0.3010 madhyam </s> -0.3010
+-0.3010 mahamaya nagar 0.0000
+-0.9093 mahin </s> -0.3010
+-0.7258 mahin chawal -0.0002
+-0.7249 mahin dhan -0.0002
+-3.4484 mahin mahin -0.2439
+-0.3010 mahoba </s> -0.3010
+-0.3010 mahrajganj </s> -0.3010
+-0.3010 mainpuri </s> -0.3010
+-0.3013 makka </s> -0.3010
+-3.4675 makka makka -0.0003
+-0.3010 masale </s> -0.3010
+-3.0406 masur </s> -0.3010
+-0.6568 masur daal 0.0000
+-0.5549 masur dal -0.0007
+-0.9549 masuri </s> -0.3010
+-0.7814 masuri chawal -0.0002
+-1.6168 masuri daal 0.0000
+-1.4965 masuri dal -0.0007
+-0.7757 masuri dhan -0.0002
+-0.3010 mathura </s> -0.3010
+-0.3010 mator </s> -0.3010
+-0.3010 mau </s> -0.3010
+-0.3010 meerut </s> -0.3010
+-0.3010 methi beej -0.0002
+-2.7101 milbar </s> -0.3010
+-2.7101 milbar gehu 0.0000
+-0.3044 milbar gehun -0.0567
+-0.3010 mirch </s> -0.3010
+-0.3010 mirzapur </s> -0.3010
+-1.0435 mota </s> -0.3010
+-0.8519 mota chawal -0.0001
+-0.8598 mota dhan -0.0002
+-3.2951 mota gehu 0.0000
+-0.8860 mota gehun -0.0568
+-3.5962 mota mota -0.2598
+-0.3010 mousambi </s> -0.3010
+-0.3010 mousami </s> -0.3010
+-0.3010 muli </s> -0.3010
+-0.5104 mung daal 0.0000
+-0.7184 mung dal -0.0007
+-0.6068 mungfali </s> -0.3010
+-0.5974 mungfali ka 0.0000
+-0.3010 muradabad </s> -0.3010
+-0.3010 muzaffarnagar </s> -0.3010
+-0.3010 nagar </s> -0.3010
+-0.3010 nagpuri </s> -0.3010
+-0.3010 narangi </s> -0.3010
+-0.3010 nasik </s> -0.3010
+-0.6994 naya </s> -0.3010
+-0.5226 naya aaloo 0.0000
+-0.3010 neelam aam 0.0000
+-0.3023 nizamabad </s> -0.3010
+-2.8248 nizamabad nizamabad -0.0013
+-0.3010 paddpy dappa -0.0026
+-0.3010 paddy dappa 0.0000
+-0.3010 pahadi aaloo 0.0000
+-0.5981 pakka kathal 0.0000
+-0.6060 pakka kela 0.0000
+-0.3010 panddy dappa -0.0026
+-0.3010 pandy dappa -0.0026
+-0.3010 papita </s> -0.3010
+-0.7149 pathari </s> -0.3010
+-0.5150 pathari gur -0.0002
+-2.7806 pathari pathari -0.2080
+-0.3010 patta gobhi -0.0003
+-0.3010 phool gobhi 0.0000
+-0.3010 phule nagar 0.0000
+-0.9860 pila </s> -0.3010
+-1.1175 pila gur -0.0002
+-0.7828 pila makka -0.0003
+-0.8082 pila soyabean 0.0000
+-0.3015 pilibhit </s> -0.3010
+-3.2465 pilibhit pilibhit -0.0005
+-0.3035 ponni </s> -0.3010
+-2.5478 ponni ponni -0.0025
+-0.3010 powder </s> -0.3010
+-0.3010 pratapgarh </s> -0.3010
+-0.3036 puna </s> -0.3010
+-2.5315 puna puna 0.0000
+-0.3010 purana aaloo 0.0000
+-0.3010 pyaaz </s> -0.3010
+-0.3010 pyaz </s> -0.3010
+-0.3010 raebareli </s> -0.3010
+-0.3010 rai </s> -0.3010
+-0.3010 rampur </s> -0.3010
+-0.3010 raspuri aam 0.0000
+-0.3010 ravidas nagar 0.0000
+-0.3010 robusta </s> -0.3010
+-0.3010 saabut urad -0.1724
+-0.9166 safed </s> -0.3010
+-0.7313 safed chana -0.0595
+-0.7141 safed jowar -0.0009
+-0.3010 safeda aam 0.0000
+-0.3023 saharanpur </s> -0.3010
+-2.8280 saharanpur saharanpur -0.0013
+-0.3010 samba masuri -0.0461
+-0.9132 sambar </s> -0.3010
+-0.7178 sambar chawal -0.0002
+-0.7330 sambar dhan -0.0002
+-2.8576 sambar masuri -0.2500
+-0.6050 sant kabir 0.0000
+-0.5992 sant ravidas 0.0000
+-0.3023 santara </s> -0.3010
+-2.8287 santara santara -0.0013
+-0.3010 sapota </s> -0.3010
+-0.3010 sarso </s> -0.3010
+-0.3010 seb </s> -0.3010
+-0.3010 shahjahanpur </s> -0.3010
+-0.3010 shakkar </s> -0.3010
+-0.3022 sharbati </s> -0.3010
+-2.8704 sharbati sharbati -0.0012
+-0.3010 shimla mirch 0.0000
+-0.3010 shrawasti </s> -0.3010
+-0.3010 siddharth nagar 0.0000
+-0.3010 simla </s> -0.3010
+-0.3010 sitapur </s> -0.3010
+-0.3022 sona </s> -0.3010
+-2.8621 sona sona -0.0012
+-0.3010 sonbhadra </s> -0.3010
+-0.3010 soyabean </s> -0.3010
+-0.3024 sthaniya </s> -0.3010
+-2.8156 sthaniya sthaniya -0.0013
+-0.3010 sukhi mirch 0.0000
+-0.3010 sultanpur </s> -0.3010
+-0.3023 super fine -0.0012
+-2.8476 super ponni -0.0025
+-0.3010 superior </s> -0.3010
+-0.3010 superponni </s> -0.3010
+-0.3010 surajmukhi beej -0.0002
+-0.3010 surkha aam 0.0000
+-0.3010 suvarna uttam 0.0000
+-0.3010 tamator </s> -0.3010
+-0.3010 tarbooj </s> -0.3010
+-0.3010 til </s> -0.3010
+-0.3010 totapuri aam 0.0000
+-0.3010 tur dal 0.0000
+-0.3010 unnao </s> -0.3010
+-0.5913 urad </s> -0.3010
+-0.6131 urad daal 0.0000
+-0.3023 uttam </s> -0.3010
+-2.8376 uttam suvarna 0.0000
+-0.3010 vaddy dappa -0.0026
+-0.3010 varanasi </s> -0.3010
+-3.4545 vijaya masur -0.3006
+-0.3013 vijaya masuri -0.0461
+-0.3010 vilayati tamator 0.0000
+
+\3-grams:
+-0.3010 <s> aaloo </s>
+-0.3010 <s> aam </s>
+-0.3010 <s> agra </s>
+-0.3010 <s> aligarh </s>
+-0.3010 <s> allahabad </s>
+-0.3010 <s> ambedkar nagar
+-0.3010 <s> ambedkar_nagar </s>
+-0.3023 <s> american </s>
+-2.8351 <s> american american
+-0.3029 <s> amrood </s>
+-2.6637 <s> amrood amrood
+-0.3010 <s> anannas </s>
+-0.3010 <s> anapoorna </s>
+-0.3023 <s> anar </s>
+-2.8439 <s> anar anar
+-0.3010 <s> angoor </s>
+-0.3010 <s> annapoorna </s>
+-0.7086 <s> arhar </s>
+-3.2400 <s> arhar arhar
+-0.8859 <s> arhar daal
+-0.7600 <s> arhar dal
+-0.3016 <s> auraiya </s>
+-3.2101 <s> auraiya auraiya
+-0.3016 <s> azamgarh </s>
+-3.2212 <s> azamgarh azamgarh
+-0.7149 <s> bada </s>
+-0.5126 <s> bada pyaaz
+-0.3010 <s> badami aam
+-0.3010 <s> badaun </s>
+-0.7232 <s> badshah </s>
+-0.5074 <s> badshah aaloo
+-0.3010 <s> baghpat </s>
+-0.3010 <s> bahraich </s>
+-0.3010 <s> baingan </s>
+-0.3010 <s> bajra </s>
+-0.3015 <s> ballia </s>
+-3.2284 <s> ballia ballia
+-0.3010 <s> balrampur </s>
+-0.3010 <s> banaras </s>
+-0.3010 <s> band gobhi
+-0.3010 <s> banda </s>
+-0.3010 <s> bangan </s>
+-0.6797 <s> bansi </s>
+-2.7528 <s> bansi gehu
+-0.5389 <s> bansi gehun
+-0.3015 <s> barabanki </s>
+-3.2279 <s> barabanki barabanki
+-0.3010 <s> bareilly </s>
+-0.3979 <s> basmathi chawal
+-1.0000 <s> basmathi dhan
+-0.8561 <s> basmati </s>
+-1.0507 <s> basmati charmi
+-0.8530 <s> basmati chawal
+-0.8813 <s> basmati dhan
+-0.3010 <s> basti </s>
+-0.7216 <s> basumathi </s>
+-0.8094 <s> basumathi chawal
+-0.8094 <s> basumathi dhan
+-0.6039 <s> basumati chawal
+-0.6002 <s> basumati dhan
+-0.6021 <s> bgnoise> chitrakoot
+-0.6021 <s> bgnoise> etah
+-0.3023 <s> bhindi </s>
+-2.8312 <s> bhindi bhindi
+-0.3010 <s> bijapur </s>
+-0.3036 <s> bijnor </s>
+-2.5310 <s> bijnor bijnor
+-0.3023 <s> bold </s>
+-2.8351 <s> bold bold
+-0.3010 <s> bulandshahr </s>
+-2.8414 <s> chana </s>
+-0.3023 <s> chana dal
+-0.3010 <s> chandauli </s>
+-0.3010 <s> charmi </s>
+-0.3010 <s> chausa aam
+-0.3010 <s> chawal </s>
+-0.3023 <s> chikoo </s>
+-2.8376 <s> chikoo chikoo
+-0.3010 <s> chini </s>
+-0.3010 <s> chips aaloo
+-0.3010 <s> chitrakoot </s>
+-0.3010 <s> chiwra chawal
+-0.3010 <s> chola chana
+-0.7155 <s> chota </s>
+-3.2596 <s> chota chota
+-0.5130 <s> chota pyaaz
+-2.6375 <s> dara gehu
+-0.3030 <s> dara gehun
+-0.3010 <s> darjeeling </s>
+-0.3010 <s> deoria </s>
+-1.4918 <s> deshi </s>
+-1.3042 <s> deshi bajra
+-1.3026 <s> deshi chana
+-3.4448 <s> deshi deshi
+-3.2687 <s> deshi gehu
+-1.3376 <s> deshi gehun
+-1.3065 <s> deshi kale
+-1.0912 <s> deshi laal
+-1.3073 <s> deshi lehsun
+-1.3010 <s> deshi mung
+-1.3488 <s> deshi soyabean
+-1.3284 <s> deshi tamator
+-0.3010 <s> desi aaloo
+-0.3035 <s> dhan </s>
+-2.5465 <s> dhan dhan
+-2.8451 <s> dhaniya </s>
+-0.3060 <s> dhaniya beej
+-2.3680 <s> dhaniya mirch
+-0.3010 <s> dusheri aam
+-0.3038 <s> etah </s>
+-2.4958 <s> etah etah
+-0.3010 <s> etawah </s>
+-0.3010 <s> faizabad </s>
+-0.3010 <s> farrukhabad </s>
+-0.3010 <s> fatehpur </s>
+-0.3010 <s> fazli aam
+-0.3035 <s> fine </s>
+-2.5539 <s> fine fine
+-0.3010 <s> firozabad </s>
+-0.3010 <s> gatiya gehun
+-0.3010 <s> gautam buddha
+-0.3018 <s> gazar </s>
+-3.0422 <s> gazar gazar
+-0.6951 <s> gehun </s>
+-2.4039 <s> gehun gehun
+-0.5313 <s> gehun kalyan
+-0.3010 <s> ghatiya gehun
+-0.3010 <s> ghaziabad </s>
+-0.3010 <s> ghazipur </s>
+-0.3036 <s> golden </s>
+-2.5302 <s> golden golden
+-0.3010 <s> gonda </s>
+-0.3010 <s> gorakhpur </s>
+-0.3024 <s> guntur </s>
+-2.8048 <s> guntur guntur
+-0.3023 <s> gur </s>
+-2.8401 <s> gur gur
+-0.6995 <s> haldi </s>
+-3.2310 <s> haldi haldi
+-0.5234 <s> haldi powder
+-0.3010 <s> hamirpur </s>
+-0.3035 <s> hansa </s>
+-2.5441 <s> hansa hansa
+-0.3010 <s> hapus aam
+-0.9350 <s> hara </s>
+-0.7161 <s> hara adrak
+-0.7176 <s> hara mirch
+-0.3010 <s> hardoi </s>
+-0.6060 <s> hari adrak
+-3.3456 <s> hari hari
+-0.5989 <s> hari mirch
+-1.0550 <s> hybrid </s>
+-0.8621 <s> hybrid bajra
+-0.8541 <s> hybrid jowar
+-0.8710 <s> hybrid tamator
+-0.3010 <s> indian </s>
+-0.3010 <s> jalander </s>
+-0.3010 <s> jalaun </s>
+-0.3010 <s> jalauni </s>
+-0.3010 <s> jambu </s>
+-0.3010 <s> jau </s>
+-0.3010 <s> jaunpur </s>
+-0.3010 <s> jawar </s>
+-0.3048 <s> jeera beej
+-2.3630 <s> jeera mirch
+-0.3010 <s> jhansi </s>
+-0.3047 <s> jowar </s>
+-2.3729 <s> jowar jowar
+-0.3010 <s> jut </s>
+-0.3010 <s> jyotiba phule
+-0.3010 <s> kaali lohi
+-0.3010 <s> kabuli chana
+-0.6129 <s> kaccha kathal
+-0.5915 <s> kaccha kela
+-0.3010 <s> kachha basmati
+-0.3010 <s> kaddu </s>
+-0.3010 <s> kaju </s>
+-0.3010 <s> kakdi </s>
+-0.8072 <s> kala </s>
+-0.6197 <s> kala gur
+-0.9827 <s> kala soyabean
+-0.3010 <s> kale chane
+-0.3047 <s> kalyan </s>
+-2.3790 <s> kalyan kalyan
+-0.3010 <s> kannauj </s>
+-0.6087 <s> kanpur dehat
+-0.5955 <s> kanpur nagar
+-0.3010 <s> kapas </s>
+-0.3010 <s> karbuja </s>
+-0.3010 <s> karela </s>
+-0.3010 <s> kathal </s>
+-0.3010 <s> kaushambi </s>
+-0.3010 <s> kela </s>
+-0.3010 <s> keshar aam
+-0.6191 <s> khada arhar
+-0.5857 <s> khada dhaniya
+-0.3010 <s> khand </s>
+-0.3010 <s> kushinagar </s>
+-0.9052 <s> laal </s>
+-0.7125 <s> laal gur
+-0.7405 <s> laal pyaaz
+-0.3010 <s> laan </s>
+-0.3010 <s> lahi </s>
+-0.3010 <s> lakhimpur kheri
+-0.3010 <s> lalitpur </s>
+-0.3010 <s> langra aam
+-0.3010 <s> lauki </s>
+-0.3010 <s> lehsun </s>
+-0.3010 <s> lohi </s>
+-0.3010 <s> lokwan </s>
+-0.3010 <s> lucknow </s>
+-1.6305 <s> madhayam </s>
+-0.3219 <s> madhayam hara
+-0.3010 <s> madhyam </s>
+-0.3010 <s> mahamaya nagar
+-0.9103 <s> mahin </s>
+-0.7255 <s> mahin chawal
+-0.7246 <s> mahin dhan
+-3.4481 <s> mahin mahin
+-0.3010 <s> mahoba </s>
+-0.3010 <s> mahrajganj </s>
+-0.3010 <s> mainpuri </s>
+-0.3023 <s> makka </s>
+-2.8463 <s> makka makka
+-0.3010 <s> masale </s>
+-0.6560 <s> masur daal
+-0.5541 <s> masur dal
+-1.0444 <s> masuri </s>
+-0.8630 <s> masuri chawal
+-1.2267 <s> masuri daal
+-1.1065 <s> masuri dal
+-0.8695 <s> masuri dhan
+-0.3010 <s> mathura </s>
+-0.3010 <s> mator </s>
+-0.3010 <s> mau </s>
+-0.3010 <s> meerut </s>
+-0.3010 <s> methi beej
+-2.7076 <s> milbar gehu
+-0.3027 <s> milbar gehun
+-0.3010 <s> mirch </s>
+-0.3010 <s> mirzapur </s>
+-1.0445 <s> mota </s>
+-0.8516 <s> mota chawal
+-0.8595 <s> mota dhan
+-3.2949 <s> mota gehu
+-0.8858 <s> mota gehun
+-3.5959 <s> mota mota
+-0.3010 <s> mousambi </s>
+-0.3010 <s> mousami </s>
+-0.3010 <s> muli </s>
+-0.3010 <s> mung dal
+-0.6068 <s> mungfali </s>
+-0.5974 <s> mungfali ka
+-0.3010 <s> muradabad </s>
+-0.3010 <s> muzaffarnagar </s>
+-0.3010 <s> nagpuri </s>
+-0.3010 <s> narangi </s>
+-0.3010 <s> nasik </s>
+-0.6994 <s> naya </s>
+-0.5226 <s> naya aaloo
+-0.3010 <s> neelam aam
+-0.3023 <s> nizamabad </s>
+-2.8235 <s> nizamabad nizamabad
+-0.3010 <s> paddpy dappa
+-0.3010 <s> paddy dappa
+-0.3010 <s> pahadi aaloo
+-0.5981 <s> pakka kathal
+-0.6060 <s> pakka kela
+-0.3010 <s> panddy dappa
+-0.3010 <s> pandy dappa
+-0.3010 <s> papita </s>
+-0.7172 <s> pathari </s>
+-0.5135 <s> pathari gur
+-2.7791 <s> pathari pathari
+-0.3010 <s> patta gobhi
+-0.3010 <s> phool gobhi
+-0.9860 <s> pila </s>
+-1.1175 <s> pila gur
+-0.7828 <s> pila makka
+-0.8082 <s> pila soyabean
+-0.3015 <s> pilibhit </s>
+-3.2460 <s> pilibhit pilibhit
+-0.3035 <s> ponni </s>
+-2.5441 <s> ponni ponni
+-0.3010 <s> pratapgarh </s>
+-0.3023 <s> puna </s>
+-2.8299 <s> puna puna
+-0.3010 <s> purana aaloo
+-0.3010 <s> pyaz </s>
+-0.3010 <s> raebareli </s>
+-0.3010 <s> rai </s>
+-0.3010 <s> rampur </s>
+-0.3010 <s> raspuri aam
+-0.3010 <s> robusta </s>
+-0.3010 <s> saabut urad
+-0.9166 <s> safed </s>
+-0.7313 <s> safed chana
+-0.7141 <s> safed jowar
+-0.3010 <s> safeda aam
+-0.3023 <s> saharanpur </s>
+-2.8267 <s> saharanpur saharanpur
+-0.3010 <s> samba masuri
+-0.9132 <s> sambar </s>
+-0.7178 <s> sambar chawal
+-0.7330 <s> sambar dhan
+-2.8576 <s> sambar masuri
+-0.6050 <s> sant kabir
+-0.5992 <s> sant ravidas
+-0.3023 <s> santara </s>
+-2.8274 <s> santara santara
+-0.3010 <s> sapota </s>
+-0.3010 <s> sarso </s>
+-0.3010 <s> seb </s>
+-0.3010 <s> shahjahanpur </s>
+-0.3010 <s> shakkar </s>
+-0.3022 <s> sharbati </s>
+-2.8692 <s> sharbati sharbati
+-0.3010 <s> shimla mirch
+-0.3010 <s> shrawasti </s>
+-0.3010 <s> siddharth nagar
+-0.3010 <s> simla </s>
+-0.3010 <s> sitapur </s>
+-0.3022 <s> sona </s>
+-2.8609 <s> sona sona
+-0.3010 <s> sonbhadra </s>
+-0.3010 <s> soyabean </s>
+-0.3024 <s> sthaniya </s>
+-2.8142 <s> sthaniya sthaniya
+-0.3010 <s> sukhi mirch
+-0.3010 <s> sultanpur </s>
+-0.3023 <s> super fine
+-2.8476 <s> super ponni
+-0.3010 <s> superior </s>
+-0.3010 <s> superponni </s>
+-0.3010 <s> surajmukhi beej
+-0.3010 <s> surkha aam
+-0.3010 <s> suvarna uttam
+-0.3010 <s> tamator </s>
+-0.3010 <s> tarbooj </s>
+-0.3010 <s> til </s>
+-0.3010 <s> totapuri aam
+-0.3010 <s> tur dal
+-0.3010 <s> unnao </s>
+-0.3010 <s> urad daal
+-0.3010 <s> vaddy dappa
+-0.3010 <s> varanasi </s>
+-3.4545 <s> vijaya masur
+-0.3013 <s> vijaya masuri
+-0.3010 <s> vilayati tamator
+-0.3010 ambedkar nagar </s>
+-0.3010 american american </s>
+-0.3010 amrood amrood </s>
+-0.3010 anar anar </s>
+-0.3010 arhar arhar </s>
+-0.3010 arhar daal </s>
+-0.3010 arhar dal </s>
+-0.3010 auraiya auraiya </s>
+-0.3010 azamgarh azamgarh </s>
+-0.3010 bada pyaaz </s>
+-0.3010 badami aam </s>
+-0.3010 badshah aaloo </s>
+-0.3010 ballia ballia </s>
+-0.3010 band gobhi </s>
+-0.3010 bansi gehu </s>
+-0.3010 bansi gehun </s>
+-0.3010 barabanki barabanki </s>
+-0.3010 basmathi chawal </s>
+-0.3010 basmathi dhan </s>
+-0.3010 basmati charmi </s>
+-0.3010 basmati chawal </s>
+-0.3010 basmati dhan </s>
+-0.3025 basumathi chawal </s>
+-2.7782 basumathi chawal basumathi
+-0.3010 basumathi dhan </s>
+-0.3010 basumati chawal </s>
+-0.3010 basumati dhan </s>
+-0.3010 beej dhaniya beej
+-0.3010 bgnoise> chitrakoot </s>
+-0.3010 bgnoise> etah </s>
+-0.3010 bhindi bhindi </s>
+-0.3010 bijnor bijnor </s>
+-0.3010 bold bold </s>
+-0.3010 buddha nagar </s>
+-0.3010 chana dal </s>
+-0.3010 chane ki daal
+-0.3010 chausa aam </s>
+-0.3010 chawal basumathi chawal
+-0.3010 chawal milbar </s>
+-0.3010 chikoo chikoo </s>
+-0.3010 chips aaloo </s>
+-0.3010 chiwra chawal </s>
+-0.3010 chola chana </s>
+-0.3010 chota chota </s>
+-0.3010 chota pyaaz </s>
+-0.3010 dal tur dal
+-0.3010 dappa paddy dappa
+-0.3010 dara gehu </s>
+-0.3010 dara gehun </s>
+-0.3010 deshi bajra </s>
+-0.3010 deshi chana </s>
+-0.3010 deshi deshi </s>
+-0.3010 deshi gehu </s>
+-0.3010 deshi gehun </s>
+-0.3010 deshi kale chane
+-0.7126 deshi laal </s>
+-0.5140 deshi laal makka
+-0.3010 deshi lehsun </s>
+-0.3010 deshi mung daal
+-0.3010 deshi soyabean </s>
+-0.3010 deshi tamator </s>
+-0.3010 desi aaloo </s>
+-0.3010 dhan dhan </s>
+-0.3023 dhaniya beej </s>
+-2.8414 dhaniya beej dhaniya
+-0.3010 dhaniya mirch </s>
+-0.3010 dusheri aam </s>
+-0.3010 etah etah </s>
+-0.3010 fazli aam </s>
+-0.3010 fine fine </s>
+-0.3010 gatiya gehun </s>
+-0.3010 gautam buddha nagar
+-0.3010 gazar gazar </s>
+-0.3590 gehun gehun </s>
+-1.2041 gehun gehun gehun
+-0.3010 gehun kalyan </s>
+-0.3010 gehun milbar gehun
+-0.3010 ghatiya gehun </s>
+-0.3010 gobhi phool gobhi
+-0.3010 golden golden </s>
+-0.3010 guntur guntur </s>
+-0.3010 gur gur </s>
+-0.3010 haldi haldi </s>
+-0.3010 haldi powder </s>
+-0.3010 hansa hansa </s>
+-0.3010 hapus aam </s>
+-0.3010 hara adrak </s>
+-0.3010 hara mirch </s>
+-0.3010 hari adrak </s>
+-0.3010 hari hari adrak
+-0.3010 hari mirch </s>
+-0.3010 hybrid bajra </s>
+-0.3010 hybrid jowar </s>
+-0.3010 hybrid tamator </s>
+-0.3010 jeera beej </s>
+-0.3010 jeera mirch </s>
+-0.3010 jowar jowar </s>
+-0.3010 jyotiba phule nagar
+-0.3010 ka beej </s>
+-0.3010 kaali lohi </s>
+-0.3010 kabir nagar </s>
+-0.3010 kabuli chana </s>
+-0.3010 kaccha kathal </s>
+-0.3010 kaccha kela </s>
+-0.3010 kachha basmati </s>
+-0.3010 kala gur </s>
+-0.3010 kala soyabean </s>
+-3.3448 kale chane </s>
+-0.3014 kale chane ki
+-0.3010 kalyan kalyan </s>
+-0.3010 kanpur dehat </s>
+-0.3010 kanpur nagar </s>
+-0.3010 keshar aam </s>
+-0.3010 khada arhar </s>
+-0.3010 khada dhaniya </s>
+-0.3010 ki daal </s>
+-0.3010 laal gur </s>
+-0.3010 laal makka </s>
+-0.3010 laal pyaaz </s>
+-0.3010 lakhimpur kheri </s>
+-0.3010 langra aam </s>
+-0.3010 madhayam hara </s>
+-0.3010 mahamaya nagar </s>
+-0.3010 mahin chawal </s>
+-0.3010 mahin dhan </s>
+-0.3010 mahin mahin </s>
+-0.3010 makka makka </s>
+-0.3010 masur daal </s>
+-0.3010 masur dal </s>
+-0.3010 masuri chawal </s>
+-0.3010 masuri daal </s>
+-0.3010 masuri dal </s>
+-0.3010 masuri dhan </s>
+-0.3010 methi beej </s>
+-0.3010 milbar gehu </s>
+-0.3019 milbar gehun </s>
+-3.0077 milbar gehun milbar
+-0.3026 mota chawal </s>
+-2.7443 mota chawal milbar
+-0.3010 mota dhan </s>
+-0.3010 mota gehu </s>
+-0.3010 mota gehun </s>
+-0.3010 mota mota </s>
+-0.3010 mung daal </s>
+-0.3010 mung dal </s>
+-0.3010 mungfali ka beej
+-0.3010 naya aaloo </s>
+-0.3010 neelam aam </s>
+-0.3010 nizamabad nizamabad </s>
+-0.3010 paddpy dappa </s>
+-0.3037 paddy dappa </s>
+-2.5172 paddy dappa paddy
+-0.3010 pahadi aaloo </s>
+-0.3010 pakka kathal </s>
+-0.3010 pakka kela </s>
+-0.3010 panddy dappa </s>
+-0.3010 pandy dappa </s>
+-0.3010 pathari gur </s>
+-0.3010 pathari pathari </s>
+-0.3010 patta gobhi </s>
+-0.3023 phool gobhi </s>
+-2.8312 phool gobhi phool
+-0.3010 phule nagar </s>
+-0.3010 pila gur </s>
+-0.3010 pila makka </s>
+-0.3010 pila soyabean </s>
+-0.3010 pilibhit pilibhit </s>
+-0.3010 ponni ponni </s>
+-0.6021 puna puna </s>
+-0.6021 puna puna puna
+-0.3010 purana aaloo </s>
+-0.3010 raspuri aam </s>
+-0.3010 ravidas nagar </s>
+-0.3010 saabut urad </s>
+-0.3010 safed chana </s>
+-0.3010 safed jowar </s>
+-0.3010 safeda aam </s>
+-0.3010 saharanpur saharanpur </s>
+-0.9111 samba masuri </s>
+-0.7276 samba masuri chawal
+-0.7211 samba masuri dhan
+-0.3010 sambar chawal </s>
+-0.3010 sambar dhan </s>
+-0.3010 sambar masuri </s>
+-0.3010 sant kabir nagar
+-0.3010 sant ravidas nagar
+-0.3010 santara santara </s>
+-0.3010 sharbati sharbati </s>
+-0.3010 shimla mirch </s>
+-0.3010 siddharth nagar </s>
+-0.3010 sona sona </s>
+-0.3010 sthaniya sthaniya </s>
+-0.3010 sukhi mirch </s>
+-0.3010 super fine </s>
+-0.3010 super ponni </s>
+-0.3010 surajmukhi beej </s>
+-0.3010 surkha aam </s>
+-0.3023 suvarna uttam </s>
+-2.8376 suvarna uttam suvarna
+-0.3010 totapuri aam </s>
+-0.3049 tur dal </s>
+-2.3554 tur dal tur
+-0.3010 urad daal </s>
+-0.3010 uttam suvarna uttam
+-0.3010 vaddy dappa </s>
+-0.3010 vijaya masur </s>
+-0.8979 vijaya masuri </s>
+-0.7374 vijaya masuri chawal
+-0.7202 vijaya masuri dhan
+-0.3010 vilayati tamator </s>
+
+\end\
