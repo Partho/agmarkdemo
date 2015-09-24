@@ -62,49 +62,6 @@ public class Results extends Activity  {
 	        
 	        URL = "http://iiitmagmark.3eeweb.com/response.php";
 			new StockServerTask().execute(URL);
-			       
-	        /*
-	        
-	        //moi.setText(bp_fetch1+" "+bp_fetch+" "+bp_fetch2);
-	        try{
-	        JSONObject jsonObj = new JSONObject(bp_fetch2);
-	    	JSONObject jsonObj2 = jsonObj.getJSONObject("query");
-	    	JSONObject jsonObj3 = jsonObj2.getJSONObject("results");
-	    	JSONObject jsonObj4 = jsonObj3.getJSONObject("quote");
-	    	moi1.setText(
-	    			jsonObj4.getString("Name")+"\n\n"+
-	    			jsonObj4.getString("Change")+"\n\n"+
-	    			jsonObj4.getString("Open")+"\n\n"+
-	    			jsonObj4.getString("PERatio")+"\n\n"+
-	    			jsonObj4.getString("DaysHigh")+"\n\n"+
-	    			jsonObj4.getString("DaysLow")+"\n\n"+
-	    			jsonObj4.getString("Volume")+"\n\n"+
-	    			jsonObj4.getString("PreviousClose")+"\n\n"+
-	    			jsonObj4.getString("EarningsShare")
-	    			);
-	    	moi.setText(
-	     			"  Name: \n\n"+
-	     			"  Change: \n\n"+
-	     			"  Open: \n\n"+
-	     			"  PERatio: \n\n"+
-	     			"  DaysHigh: \n\n"+
-	     			"  DaysLow: \n\n"+
-	     			"  Volume: \n\n"+
-	     			"  PreviousClose: \n\n"+
-	     		    "  EarningsShare: "
-	     			);
-	    			
-	        }
-	        
-	        	        catch(Exception e)
-	        {
-	          
-	        	 
-	        }
-	        */
-	        
-	       
-	 
     }
     
     private class StockServerTask extends AsyncTask<String,Void,JSONObject>
@@ -146,27 +103,6 @@ public class Results extends Activity  {
 
 	    		ResponseHandler<String> responseHandler = new BasicResponseHandler();
 	    		String response = httpclient.execute(httppost, responseHandler);
-	    		
-	    		/*
-	        	StringBuilder stockjsonResults = new StringBuilder();
-			    HttpURLConnection st = null;
-			    URL url1 = new URL(URLINPUT);
-			    Log.d("URLINPUT",url1.toString());
-		        st = (HttpURLConnection) url1.openConnection();
-		        InputStreamReader stin = new InputStreamReader(st.getInputStream());
-		      
-		        // Load the results into a StringBuilder
-		        int read;
-		        char[] buff = new char[1024];
-		        while ((read = stin.read(buff)) != -1) {
-		            stockjsonResults.append(buff, 0, read);
-		        }
-		        
-		        
-		        final String json = stockjsonResults.toString();
-		    	Log.d("STOCKjson",json);
-		        jsonObj = new JSONObject(json);
-		    	*/
 	    		final String json = response;
 		    	Log.d("STOCKjson",json);
 		        jsonObj = new JSONObject(json);
