@@ -219,22 +219,10 @@ public class MainActivity extends Activity implements OnClickListener, OnTouchLi
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-		//Drawable rightArrow = getResources().getDrawable(R.drawable.cornwall);
 
-		// setting the opacity (alpha)
-		//rightArrow.setAlpha(10);
-
-		// setting the images on the ImageViews
-		//rightImage.setImageDrawable(rightArrow);
-		
-		
-		
-		
 		this.rec1 = new RecognizerTask(new File(getExternalFilesDir(null), "pocketsphinxmodels"));
 		this.rec2 = new RecognizerTask(new File(getExternalFilesDir(null), "pocketsphinxmodels"));
 		this.rec3 = new RecognizerTask(new File(getExternalFilesDir(null), "pocketsphinxmodels"));
-		
 
 		this.rec_thread_1 = new Thread(this.rec1,"f");
 		this.rec_thread_2 = new Thread(this.rec2,"s");
